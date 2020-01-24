@@ -12,13 +12,19 @@
     <p>--------------</p>
 
 
-    <div id="app" v-md-theme="'default'">
+    <b-alert variant="success" show> Success Alert</b-alert>
+
+
+    <!-- <div id="app" v-md-theme="'default'">
         <md-toolbar>
             <div class="md-title">My App</div>
 
         </md-toolbar>
 
-    </div>
+    </div> -->
+
+
+
 
 
 
@@ -46,7 +52,7 @@ export default {
 
 
 
-<style leng = scss>
+<style>
 
 
 
