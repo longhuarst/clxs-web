@@ -6,12 +6,15 @@
 
 function commonFun(){
     window.console.log('公共方法')
+    window.console.log(register)
 }
 
 
-var register = false;
-var login = false;
-var logined = false;
+const register = false;
+const login = false;
+const logined = false;
+const username = "未登录"
+
 
 
 export default {
@@ -19,6 +22,9 @@ export default {
     register,
     login,
     logined,
+    user:{
+        username:username,
+    },
     
 
 }
