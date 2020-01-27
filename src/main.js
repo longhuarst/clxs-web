@@ -37,7 +37,7 @@ Vue.prototype.common = common;
 import './assets/css/global.css'
 
 import axios from 'axios'
-axios.defaults.baseURL = 'http://localhost:8081/'
+axios.defaults.baseURL = 'localhost:8080/'
 Vue.prototype.$http = axios
 
 Vue.config.productionTip = false
